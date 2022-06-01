@@ -1,0 +1,24 @@
+.zone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45vh;
+    /*border: 1px solid black;*/
+    width: 100%;
+
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+
+.text{
+    color: black;
+    text-align: center;
+}
+
+

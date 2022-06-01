@@ -1,0 +1,12 @@
+.wrapper{
+    min-height: 100vh;
+    height: 100%;
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #e13d53;
+    display: flex;
+    flex-direction: column;
+    gap:8vh;
+}
