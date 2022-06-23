@@ -10,12 +10,12 @@ function Box({
     return (
         <div className={styles.box}>
             <p>
-                {text}:&nbsp;
-                <strong>
-                    {Number(data).toFixed(2)}
-                </strong>
+                {text}:
             </p>
-
+            &nbsp;
+            <strong>
+                {Number(data).toFixed(2)}
+            </strong>
         </div>
     )
 }
